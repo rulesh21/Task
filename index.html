@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="bogo-container">
+            <hr class="line">
+            <span class="text">YAY! it's BOGO</span>
+            <hr class="line">
+        </div>
+        
+
+        <div class="box">
+
+            <div class="header" onclick="toggleExpand(this)">
+                <input type="radio" name="units" checked>
+                <span>1 Unit</span>
+                <span class="discount">10% off</span>
+                <span class="price">$10.00 USD</span>
+            </div>
+
+            <p class="subtext">Standard Price <span class="cut">$24.00 USD</span></p>
+            
+            <div class="options">
+
+                <div class="option">
+                    <label>#1</label>
+                    <select>
+                        <option>Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="box">
+
+            <div class="header" onclick="toggleExpand(this)">
+                <div class="popular-tag">MOST POPULAR</div>
+                <input type="radio" name="units">
+                <span>2 Unit</span>
+                <span class="discount">20% off</span>
+                <span class="price">$18.00 USD</span>
+            </div>
+
+            <span class="cuts">$24.00 USD</span>
+
+            <div class="options">
+
+                <div class="option">
+                    <label>#1</label>
+                    <select>
+                        <option>Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label>#2</label>
+                    <select>
+                        <option>Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="box">
+
+            <div class="header" onclick="toggleExpand(this)">
+                <input type="radio" name="units" class="btn">
+                <span>3 Unit</span>
+                <span class="discount">30% off</span>
+                <span class="price">$24.00 USD</span>
+            </div>
+
+            <span class="cuts">$24.00 USD</span>
+
+            <div class="options">
+
+                <div class="option">
+                    <label>#1</label>
+                    <select>
+                        <option>Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label>#2</label>
+                    <select>
+                        <option>Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label>#3</label>
+                    <select>
+                        <option>Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="total">
+
+            <p class="delivery">Free Delivery</p>
+            <p class="final-price">Total: $18.00 USD</p>
+            
+        </div>
+        
+        <button class="add-to-cart">+ Add to Cart</button>
+
+    </div>
+
+    <script src="myscript.js"></script>
+</body>
+</html>
